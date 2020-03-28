@@ -10,8 +10,7 @@ navbar:
   - text: License
     href: license.html
   right:
-  - icon: fa-github
-    text: Source code
+  - text: source
     href: https://github.com/ogorodriguez/01_test_wflowr
 output:
   workflowr::wflow_html:
