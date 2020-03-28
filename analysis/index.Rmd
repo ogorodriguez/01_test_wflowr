@@ -12,10 +12,10 @@ Welcome to my research website.
 
 This is the example website created with workflowr.  This is the first test in using workflowr.  
 
-I am going to include some simple R code.
+This is a list of analysis I have done...
 
-```{r}
-x <- round(rnorm(10)*10, 0)
-(dplyr::tibble(x)) 
-```
+ a. [Analysis 1](first-analysis.html)
+ b. [Analysis 2](second-analysis.html)
+
+
 

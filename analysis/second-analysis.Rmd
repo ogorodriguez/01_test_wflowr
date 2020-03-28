@@ -1,0 +1,18 @@
+---
+title: "second-analysis"
+author: "ogorodriguez"
+date: "2020-03-28"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+### This is my seconde analysis.  A simple tibble
+
+```{r}
+x <- round(rnorm(10)*10, 0)
+(dplyr::tibble(x)) 
+```
+

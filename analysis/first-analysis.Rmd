@@ -1,0 +1,20 @@
+---
+title: "first-analysis"
+author: "ogorodriguez"
+date: "2020-03-28"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+This is my first analysis file included in the test project with workflowr
+
+### Making a sample plot
+
+```{r}
+library(ggplot2)
+ggplot(midwest, aes(x=area, y=poptotal)) + geom_point()
+```
+
