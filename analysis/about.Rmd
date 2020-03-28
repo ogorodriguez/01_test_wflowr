@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "First Test using workflowr"
 output:
   workflowr::wflow_html:
     toc: false
@@ -8,3 +8,5 @@ editor_options:
 ---
 
 Describe your project.
+
+This is the first test using workflowr and building a website with it.
