@@ -1,7 +1,7 @@
-name: "01_test_wflowr"
+name: 01_test_wflowr
 output_dir: ../docs
 navbar:
-  title: "01_test_wflowr"
+  title: 01_test_wflowr
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/ogorodriguez/01_test_wflowr
 output:
   workflowr::wflow_html:
     toc: yes
